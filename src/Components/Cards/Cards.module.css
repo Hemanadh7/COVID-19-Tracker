@@ -1,0 +1,46 @@
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  margin: 0 20px;
+  border-bottom: 10px solid rgba(0, 0, 255, 0.6);
+  border-top: 20px solid rgba(66, 67, 69, 0.8);
+}
+
+.recovered {
+  margin: 0 20px;
+  border-bottom: 10px solid rgba(0, 255, 0, 0.6);
+  border-top: 20px solid rgba(66, 67, 69, 0.8);
+}
+
+.deaths {
+  margin: 0 20px;
+  border-bottom: 10px solid rgba(255, 0, 0, 0.6);
+  border-top: 20px solid rgba(66, 67, 69, 0.8);
+}
+
+.cardtext {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.buttom {
+  margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.spacing {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 5% !important;
+  }
+}
